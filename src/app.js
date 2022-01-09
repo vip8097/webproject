@@ -31,7 +31,7 @@ app.get('/weather', (req, res) => {
 
 app.get('*', (req, res) => {
   res.render('404error.hbs', {
-    errorMsg: 'Ops! Page Not Found',
+    errorMsg: 'Ops! Page Not Found', 'onclick here';
   });
 });
 app.listen(8000, () => {
